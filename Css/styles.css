@@ -21,6 +21,10 @@
     background-color: #111111;
 }
 
+body{
+    background:#111111;
+}
+
 .navbar{
     display: flex;
     justify-content: center;
@@ -38,4 +42,27 @@
     text-decoration: none;
     color: rgb(196, 198, 199);
     font-size: 18px;
+}
+
+#AboutUs-Title h2{
+    color: #dadada;
+    margin-right: 20px;
+    font-size: 50px;
+}
+
+#AboutUs-Title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#AboutUs{
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    width: 48%;
+}
+
+#AboutUs p{
+    color: #dadada;
+    padding: 2%;
 }
