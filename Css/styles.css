@@ -25,6 +25,14 @@ body{
     background:#111111;
 }
 
+.ProyectBox{
+    margin: 30px;
+}
+
+.ProyectBox p {
+color: #dadada;
+}
+
 .navbar{
     display: flex;
     align-items: center;
