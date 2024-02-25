@@ -40,34 +40,38 @@ body{
 .ProyectBox img:hover
 {
     transform: scale(1.05);
-    opacity: 1;
+    opacity: 0.7;
 }
 .ProyectBox img {
+    transition: 0.15s ease-out;
     width: 90%;
     border-radius: 15px;
 }
 
 .ProyectBox p {
-color: #dadada;
+    color: #dadada;
 }
 
 .navbar{
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(
-        #1f1f1f,
+        #2e2e2e,
         #111111
     );
 }
 
 .navbar a:hover{
     transform: scale(1.05);
-    opacity: 0.65;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.856);
+    color: rgb(249, 252, 255);
 }
 .navbar a{    
+    transition: 0.15s ease-out;
     padding-top: 12px;
-    margin-left: 5%;
+    margin-left: 3%;
     margin-right: 5%;
     text-decoration: none;
     color: rgb(196, 198, 199);
