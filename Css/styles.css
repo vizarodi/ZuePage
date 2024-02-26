@@ -26,7 +26,7 @@ body{
 }
 
 .Proyects-line{
-    padding-top: 25px;
+    padding-top: 37px;
     margin: 20px auto 20px;
     overflow: auto;
     display: flex;
@@ -40,12 +40,16 @@ body{
 .ProyectBox img:hover
 {
     transform: scale(1.05);
-    opacity: 0.7;
+    box-shadow: 1px 1px 20px 4px rgb(82, 177, 255);
+    opacity: 1;
 }
 .ProyectBox img {
-    transition: 0.15s ease-out;
+    box-shadow: 1px 1px 2px 5px rgb(82, 177, 255);
+
+    transition: 0.15s ease-in-out;
     width: 84%;
     border-radius: 15px;
+    margin-bottom: 6px;
 }
 
 .ProyectBox p {
@@ -65,12 +69,12 @@ body{
 
 .navbar a:hover{
     transform: scale(1.05);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.856);
+    border-inline: 4px solid rgba(255, 255, 255, 0.856);
     color: rgb(249, 252, 255);
 }
 .navbar a{    
     transition: 0.15s ease-out;
-    padding-top: 12px;
+    margin-top: 12px;
     margin-left: 3%;
     margin-right: 5%;
     text-decoration: none;
