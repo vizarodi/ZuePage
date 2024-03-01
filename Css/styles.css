@@ -40,11 +40,10 @@ body{
 .ProyectBox img:hover
 {
     transform: scale(1.05);
-    box-shadow: 1px 1px 20px 4px rgb(82, 177, 255);
+    box-shadow: 0.2px 0.2px 20px 3px rgb(245, 245, 245);
     opacity: 1;
 }
 .ProyectBox img {
-    box-shadow: 1px 1px 2px 5px rgb(82, 177, 255);
 
     transition: 0.15s ease-in-out;
     width: 84%;
@@ -52,7 +51,12 @@ body{
     margin-bottom: 6px;
 }
 
-.ProyectBox p {
+.project-gender{
+    font-family: Satoshi-Regular;
+    color: #dadada;
+}
+
+.project-name{
     color: #dadada;
 }
 
