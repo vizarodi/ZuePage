@@ -94,18 +94,18 @@ main{
 
 .game{
     border-radius: 20px;
-    transition: 0.25s;
+    transition: 0.5s;
     animation: ease-in-out;
 }
 
 .game:hover{
-    scale: 1.02;
+    scale: 1.05;
     box-shadow: rgb(102, 102, 102) 0px 0px 16px;
 }
 
 /*independent zone (section selected)*/
 
-#catalog-a{
+#contact-a{
     padding-left: 32px;
     font-weight: bold;
     color: black;
