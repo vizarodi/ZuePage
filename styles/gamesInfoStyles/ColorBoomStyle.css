@@ -55,7 +55,7 @@ header{
 
 header img{
     box-shadow: rgb(180, 5, 180) 0 0 20px;
-    height: 220px;
+    width: 76%;
 }
 
 section{
@@ -111,7 +111,7 @@ main a:hover{
 /*independent zone (section selected)*/
 
 #catalog-a{
-    padding-left: 64px;
+    padding-left: 32px;
     font-weight: bold;
     color: black;
     background-color: rgb(240, 240, 240);
