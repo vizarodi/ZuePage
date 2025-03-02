@@ -9,8 +9,8 @@
 
 }
 /*TODO: add media query for mobiles with a max-width of 962px for this and others*/
-@media only screen and (min-width: 963px) /* desktop and tablet styles are the same */
-{
+/* desktop and tablet styles are the same */
+
     body{
         background-color: rgb(240, 240, 240);
     }
@@ -121,4 +121,7 @@
         border-top-left-radius: 4px;
         border-bottom-left-radius: 4px;
     }
+
+@media only screen and (max-width: 962px) {
+    
 }
